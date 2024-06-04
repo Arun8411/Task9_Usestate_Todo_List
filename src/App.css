@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f9fb;
+}
+
+.card {
+  background-color: #fff;
+
+  width: 450px;
+  border-radius: 10px;
+  padding: 20px 15px;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 10px 2px #a5a9ae;
+}
+
+.card > h3 {
+  text-align: center;
+}
+
+.card > input {
+  width: 300px;
+  height: 32px;
+  border: 1px solid #e1e7ef;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.card > button {
+  padding: 10px 20px;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #15b2db;
+  color: #fff;
+}
+
+.card > button:hover {
+  background-color: #0e748f;
+}
+
+.listItems {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.listItems > li {
+  width: 360px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listItems > li > div {
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+}
+
+/* .listItems > li > div > input[type="checkbox"]  */
+.customCheckbox {
+  width: 15px;
+  /* text-decoration: line-through; */
+}
+
+.listItems > li > button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 5px 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.Todolable {
+  text-transform: capitalize;npm run descent-override: ;
+}
